@@ -1,13 +1,15 @@
-CREATE or replace TABLE regions
+CREATE TABLE REGIONS
   (
-    region_id NUMBER PRIMARY KEY,
-    region_name VARCHAR2( 50 ) NOT NULL
+    REGION_ID INT,
+    REGION_NAME VARCHAR(50),
+    PRIMARY KEY (REGION_ID)
   );
   
- CREATE  or replace TABLE countries
+ CREATE TABLE COUNTRIES
   (
-    country_id   CHAR( 2 ) PRIMARY KEY  ,
-    country_name VARCHAR2( 40 ) NOT NULL,
-    region_id    NUMBER
+    COUNTRY_ID VARCHAR(50),
+    COUNTRY_NAME VARCHAR(50),
+    REGION_ID INT,
+    PRIMARY KEY (COUNTRY_ID)
   );
  
