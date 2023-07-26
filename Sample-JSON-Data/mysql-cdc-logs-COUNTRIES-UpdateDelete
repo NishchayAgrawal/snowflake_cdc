@@ -1,0 +1,3 @@
+{"schema": "mysqlDB", "table": "COUNTRIES", "type": "UpdateRowsEvent", "row": {"before_values": {"COUNTRY_ID": "US", "COUNTRY_NAME": "United States of America", "REGION_ID": 2}, "after_values": {"COUNTRY_ID": "US", "COUNTRY_NAME": "USA", "REGION_ID": 2}}}
+{"schema": "mysqlDB", "table": "COUNTRIES", "type": "DeleteRowsEvent", "row": {"values": {"COUNTRY_ID": "ZM", "COUNTRY_NAME": "Zambia", "REGION_ID": 4}}}
+{"schema": "mysqlDB", "table": "COUNTRIES", "type": "DeleteRowsEvent", "row": {"values": {"COUNTRY_ID": "ZW", "COUNTRY_NAME": "Zimbabwe", "REGION_ID": 4}}}

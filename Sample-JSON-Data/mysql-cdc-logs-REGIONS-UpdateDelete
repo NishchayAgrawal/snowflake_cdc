@@ -1,0 +1,2 @@
+{"schema": "mysqlDB", "table": "REGIONS", "type": "UpdateRowsEvent", "row": {"before_values": {"REGION_ID": 1, "REGION_NAME": "Europe"}, "after_values": {"REGION_ID": 1, "REGION_NAME": "America"}}}
+{"schema": "mysqlDB", "table": "REGIONS", "type": "DeleteRowsEvent", "row": {"values": {"REGION_ID": 4, "REGION_NAME": "Middle East and Africa"}}}

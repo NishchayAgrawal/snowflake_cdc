@@ -1,0 +1,4 @@
+{"schema": "mysqlcdc", "table": "REGIONS", "type": "WriteRowsEvent", "row": {"values": {"REGION_ID": 1, "REGION_NAME": "Europe"}}}
+{"schema": "mysqlcdc", "table": "REGIONS", "type": "WriteRowsEvent", "row": {"values": {"REGION_ID": 2, "REGION_NAME": "Americas"}}}
+{"schema": "mysqlcdc", "table": "REGIONS", "type": "WriteRowsEvent", "row": {"values": {"REGION_ID": 3, "REGION_NAME": "Asia"}}}
+{"schema": "mysqlcdc", "table": "REGIONS", "type": "WriteRowsEvent", "row": {"values": {"REGION_ID": 4, "REGION_NAME": "Middle East and Africa"}}}
