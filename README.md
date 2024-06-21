@@ -2,5 +2,3 @@
 This repository contains the scripts which is used in the process of building the Data Pipeline which perform the data replication from MySQL RDS Database to Snowflake Database.
 
 The details about the project flow and execution process has been explained in the below Medium Blog.
-
-https://medium.com/@shreyas.ms99/data-pipeline-replicate-data-from-mysql-to-snowflake-with-aws-kinesis-binlog-streamer-python-f4f77d852e45
